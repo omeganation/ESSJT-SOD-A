@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & Tourist Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">
+            <img src="logo.webp" alt="Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Book Now</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search...">
+            <button type="submit" id="search-btn">&#128269;</button>
+        </div>
+    </header>
+    
+
+    <!-- Home Page: Carousel Section -->
+
+    <section class="image-gallery">
+        <div class="image-container">
+            <img src="image1.jpeg" alt="Destination 1" class="image" loading="lazy">
+            <img src="image2.jpeg" alt="Destination 2" class="image" loading="lazy">
+            <img src="image3.jpeg" alt="Destination 3" class="image" loading="lazy">
+            <img src="image4.jpg" alt="Destination 4" class="image" loading="lazy">
+        </div>
+    </section>
+
+    <section class="welcome-section">
+        <div class="welcome-container">
+            <h1>Welcome to Your Dream Destination</h1>
+            <p>Explore the world's most beautiful places with ease. Start your journey with us and discover breathtaking adventures tailored just for you.</p>
+            <a href="#destinations" class="btn-get-started">Get Started</a>
+        </div>
+    </section>
+
+    <section class="video-section">
+        <h2>Explore the World</h2>
+        <video controls>
+            <source src="travel_highlights.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2>Our Travel Blog</h2>
+            <p>Discover tips, guides, and inspiring stories from travelers around the world.</p>
+            <div class="blog-cards">
+                <div class="blog-card">
+                    <img src="blog1.jpeg" alt="Blog 1">
+                    <div class="blog-content">
+                        <h3>10 Best Beaches to Visit in 2025</h3>
+                        <p>Explore the most stunning beaches around the globe for your next vacation.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="images/blog2.jpg" alt="Blog 2">
+                    <div class="blog-content">
+                        <h3>A Guide to Budget Traveling</h3>
+                        <p>Learn how to save money and travel the world on a budget.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="blog3.jpeg" alt="Blog 3">
+                    <div class="blog-content">
+                        <h3>Top Destinations for Adventure Lovers</h3>
+                        <p>Find the best places for thrilling adventures and unforgettable memories.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="destinations" class="featured-destinations">
+        <h2>Featured Destinations</h2>
+        <div class="destination-container">
+            <div class="destination-card">
+                <img src="paris.jpeg" alt="Paris">
+                <h3>Paris, France</h3>
+                <p>The city of lights and romance awaits you.</p>
+                <div class="destination-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-text">4/5</span>
+                </div>
+                <p class="price">Starting at $999</p>
+                <a href="#" class="btn-book-now">Book Now</a>
+            </div>
+            <div class="destination-card">
+                <img src="maldives.jpg" alt="Maldives">
+                <h3>Maldives</h3>
+                <p>Discover paradise with crystal-clear waters.</p>
+                <div class="destination-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="rating-text">5/5</span>
+                </div>
+                <p class="price">Starting at $2,500</p>
+                <a href="#" class="btn-book-now">Book Now</a>
+            </div>
+            <div class="destination-card">
+                <img src="tokyo.jpeg" alt="Tokyo">
+                <h3>Tokyo, Japan</h3>
+                <p>A vibrant mix of tradition and modernity.</p>
+                <div class="destination-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-text">4/5</span>
+                </div>
+                <p class="price">Starting at $1,200</p>
+                <a href="#" class="btn-book-now">Book Now</a>
+            </div>
+            <div class="destination-card">
+                <img src="grand-canyon.jpg" alt="Grand Canyon">
+                <h3>Grand Canyon, USA</h3>
+                <p>Experience nature's masterpiece
+                    and Fresh Water.
+                </p>
+                <div class="destination-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="rating-text">3/5</span>
+                </div>
+                <p class="price">Starting at $450</p>
+                <a href="#" class="btn-book-now">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations-section">
+        <h2>Featured Destinations</h2>
+        <div class="destinations-container">
+            <div class="destination-card">
+                <img src="destination1.jpg" alt="Destination 1">
+                <h3>Destination 1</h3>
+                <p>Explore beautiful beaches, stunning views, and more!</p>
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+            <div class="destination-card">
+                <img src="destination2.jpg" alt="Destination 2">
+                <h3>Destination 2</h3>
+                <p>Discover the rich history and culture of this amazing place.</p>
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+            <div class="destination-card">
+                <img src="destination3.jpg" alt="Destination 3">
+                <h3>Destination 3</h3>
+                <p>Experience the adventure and thrills at this exciting destination.</p>
+                <a href="#booking" class="btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="testimonials" class="testimonials-section">
+        <h2>What Our Travelers Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <img src="customer1.jpg" alt="Customer 1">
+                <p>"An unforgettable experience in Paris! Every moment was magical, and everything was perfectly organized."</p>
+                <h4>Jane Doe</h4>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="customer2.jpg" alt="Customer 2">
+                <p>"The Maldives was paradise on earth. Our vacation was perfect. Highly recommend this service!"</p>
+                <h4>John Smith</h4>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="customer3.jpg" alt="Customer 2">
+                <p>"Please Visit Rwanda For Your vacation
+                    Just Trust Me!"</p>
+                <h4>Tuyizere Omega</h4>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="customer4.jpg" alt="Customer 2">
+                <p>"Wow i Like The features From Rwanda I really Love Rwanda!"</p>
+                <h4>Keza Angel</h4>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking-filters">
+        <h2>Find Your Perfect Trip</h2>
+        <form>
+            <select>
+                <option value="beach">Beach</option>
+                <option value="mountain">Mountain</option>
+                <option value="city">City</option>
+            </select>
+            <select>
+                <option value="budget">Budget</option>
+                <option value="midrange">Midrange</option>
+                <option value="luxury">Luxury</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+    
+    
+    <!--news latter & sign Up-->
+    <section id="newsletter" class="newsletter-section">
+        <h2>Stay Updated with Our Latest Offers</h2>
+        <p>Sign up for our newsletter to receive exclusive deals, travel tips, and more!</p>
+        <form action="#" method="POST">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" class="btn-submit">Subscribe</button>
+        </form>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>What is included in the travel packages?</h3>
+                <p>Our travel packages typically include flights, accommodation, guided tours, and transfers. Please check each package's details for more specific information.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I make a booking?</h3>
+                <p>You can book your trip directly on our website using the 'Book Now' button on each destination page or contact us for personalized booking assistance.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you offer travel insurance?</h3>
+                <p>Yes, we offer travel insurance as an optional add-on for your peace of mind. You can opt for it while booking your trip.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I cancel or change my booking?</h3>
+                <p>Yes, bookings can be changed or canceled based on our cancellation policy. Please refer to the terms and conditions for more details.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+            <div class="contact-details">
+                <h3>Our Office</h3>
+                <p><strong>Address:</strong> 123 Travel Lane, Dream City, Country</p>
+                <p><strong>Phone:</strong> +250793748035</p>
+                <p><strong>Email:</strong> tuyizereomega@gmail.com</p>
+                <div class="map">
+                    <!-- Google Map Embed (you can replace this with a real map) -->
+                    <iframe src="https://www.google.com/maps/embed?pb=your_map_embed_code" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo.webp" alt="Logo">
+            </div>
+            <div class="footer-links">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/omeganation_/" target="Profile">Instagram</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+            <div class="footer-contact">
+                <p><strong>Contact Us:</strong></p>
+                <p>+250793748035</p>
+                <p>tuyizereomega@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Your Travel Website. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <button id="back-to-top" class="back-to-top">
+        &#8593; Back to Top
+    </button>
+    
+    
+    <!-- Main Banner Section -->
+    <section class="banner">
+        <h1>Explore the World with Us!</h1>
+        <p>Find your next travel destination</p>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="logo.webp" alt="Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#terms">Terms & Conditions</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="social-media-icons">
+                <div class="visitor-counter">
+                    <p>Total Visitors: <span id="visitorCount">0</span></p>
+                </div>
+                
+                <a href="https://www.facebook.com" target="_blank" class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" class="icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+            
+        </div>
+    </footer>
+    
+</body>
+<script>
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.carousel-image');
+    const totalImages = images.length;
+
+    function changeImage() {
+        currentIndex = (currentIndex + 1) % totalImages;
+        const offset = -currentIndex * 100;
+        document.querySelector('.carousel-slide').style.transform = `translateX(${offset}%)`;
+    }
+
+    // Change image every 4 seconds
+    setInterval(changeImage, 4000);
+
+    // Show or hide the "Back to Top" button
+window.onscroll = function() {
+    const backToTopButton = document.getElementById("back-to-top");
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        backToTopButton.style.display = "block";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+};
+
+// Scroll to the top of the page
+document.getElementById("back-to-top").onclick = function() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Paris&appid=YOUR_API_KEY') {
+    .then(response => response.json())
+    .then(data => {
+        const weather = data.weather[0].description;
+        const temp = (data.main.temp - 273.15).toFixed(1);
+        document.getElementById('weather-info').textContent = `${weather}, ${temp}°C`;
+    });
+{
+    
+    // Retrieve the current visitor count from localStorage
+    let visitorCount = localStorage.getItem("visitorCount");
+
+    // If no count exists, initialize it to 1 (first visit)
+    if (!visitorCount) {
+        visitorCount = 1;
+    } else {
+        // Increment the count for returning visits
+        visitorCount = parseInt(visitorCount) + 1;
+    }
+
+    // Save the updated count back to localStorage
+    localStorage.setItem("visitorCount", visitorCount);
+
+    // Display the visitor count on the page
+    document.getElementById("visitorCount").textContent = visitorCount;
+
+</script>
+
+</html>
